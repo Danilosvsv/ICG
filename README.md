@@ -2,7 +2,7 @@
 
 Autor: Danilo Santos Vieira / Matrícula 20160141328
 
-1. [Introduction](#introduction)
+1. [Trabalho 1: Rasterização de Linhas](#introduction)
 
 
 # Rasterização de Linhas
@@ -74,5 +74,5 @@ Porém, não pode-se limitar o desenho das linhas apenas para o 1 octante, logo,
 
 
 
-## This is the introduction <a name="Trabalho 1: Rasterização de Linhas"></a>
+## Trabalho 1: Rasterização de Linhas <a name="introduction"></a>
 
