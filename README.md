@@ -2,6 +2,8 @@
 
 Autor: Danilo Santos Vieira / Matrícula 20160141328
 
+Esse repositório foi organizado da seguinte forma: a pasta trabalhos localizada em https://github.com/Danilosvsv/ICG, contém todos os códigos desenvolvidos por trabalho, já a parte da explicação dos resultados com texto/printscreens serão desenvolvidos no decorrer desse arquivo "readme.md".
+
 1. [Trabalho 1: Rasterização de Linhas](#introduction)
 2. [Trabalho 2: Compilando e Executando um Programa OpenGL Moderno](#introduction2)
 
@@ -67,9 +69,6 @@ Porém, não pode-se limitar o desenho das linhas apenas para o 1 octante, logo,
 ![Imagem3](https://user-images.githubusercontent.com/66951092/85497812-f3f6cd00-b5b4-11ea-9dbc-8eb6949782e0.jpeg)
 
 ![Imagem4](https://user-images.githubusercontent.com/66951092/85497816-f5c09080-b5b4-11ea-861d-40de34db9f80.jpeg)
-
-2 - Compilando e Executando um Programa OpenGL Moderno
-
 
 ## Trabalho 2: Compilando e Executando um Programa OpenGL Moderno <a name="introduction2"></a>
 
