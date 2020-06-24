@@ -1,4 +1,4 @@
-#### ICG
+### ICG
 
 Autor: Danilo Santos Vieira / Matrícula 20160141328
 
@@ -7,7 +7,7 @@ Autor: Danilo Santos Vieira / Matrícula 20160141328
 
 Esse trabalho apresenta a fundamentação matemática para a compreensão e implementação de algoritmos para o desenho de pontos, linhas e triângulo na tela do computador. Para essa tarefa, foi necessário entender o algoritmo de Rasterização de Linhas, revisar conhecimentos fundamentais da matemática, como a equação da reta, e no âmbito computacional, foi necessário a instalação do OpenGL 3.0 e da Linguagem de Programação C.
 
-## I) Desenhando um ponto
+# I) Desenhando um ponto
 
 Para desenhar um ponto na tela foi criado uma função que pega as coordenadas (x,y) desse ponto e a cor desse ponto através dos seus respectivos valores R,G,B,A.
 
@@ -22,7 +22,7 @@ Obteve-se como resultado:
 
 ![Imagem5](https://user-images.githubusercontent.com/66951092/85498909-f9edad80-b5b6-11ea-9be6-353313f7d6ba.png)
 
-## II) Desenhando linhas
+# II) Desenhando linhas
 
 A princípio, foi fornecido o Algoritmo de Bresenham para o caso 0 < m < 1.
 
@@ -47,9 +47,7 @@ MidPointLine() {
   }
 }
 ```
-Porém, não pode-se limitar o desenho das linhas apenas para o 1 octante, logo, é necessário generalizar esse algoritmo para os outros octantes, ou seja, realizou-se uma análise para identificar o comportamento de (x1-x0) e (y1-y0) nos outros octantes.
-
-Obteve-se, os seguintes resultados:
+Porém, não pode-se limitar o desenho das linhas apenas para o 1 octante, logo, é necessário generalizar esse algoritmo para os outros octantes, ou seja, realizou-se uma análise para identificar o comportamento de (x1-x0), (y1-y0), m e a relação entre as coordenadas x0,x1 e y0,y1 nos outros octantes. Dessa forma, obteve-se os seguintes resultados:
 
 
 ![Imagem1](https://user-images.githubusercontent.com/66951092/85497796-ed685580-b5b4-11ea-9c9b-f601a685a257.jpeg)
