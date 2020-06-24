@@ -83,7 +83,7 @@ Como observado, ainda não foi possível obter o triângulo, logo, foi feito mai
 
 A figura 7 mostra que o OpenGL instalado na máquina é inferior a versão 3.3 do OpenGl, logo foi necessário realizar atualizações na máquina de forma a atualizar o OpenGl. Para isso foi realizado consultas na internet, de forma a achar os seguintes comandos para serem executados:
 
-````
+```
 sudo apt-get update
 sudo apt-get install freeglut3
 sudo apt-get install freeglut3-dev
