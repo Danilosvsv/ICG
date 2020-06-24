@@ -87,6 +87,7 @@ Esse trabalho consiste na verificação do ambiente de desenvolvimento em OpenGl
 Como observado, ainda não foi possível obter o triângulo, logo, foi feito mais alguns testes até que foi retornado a seguinte mensagem no terminal:
 
 ![Figura 3: Mensagem de retorno](https://user-images.githubusercontent.com/66951092/85546099-f2e49080-b5f2-11ea-9f0a-db4315fe1d1e.jpg)
+*Figura 3: Versão OpenGl*
 
 A figura 3 mostra que o OpenGL instalado na máquina é inferior a versão 3.3 do OpenGl, logo foi necessário realizar atualizações na máquina de forma a atualizar o OpenGl. Para isso foi realizado consultas na internet, de forma a achar os seguintes comandos para serem executados:
 
