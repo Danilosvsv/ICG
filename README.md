@@ -78,14 +78,17 @@ Porém, não pode-se limitar o desenho das linhas apenas para o 1 octante, logo,
 
 Esse trabalho consiste na verificação do ambiente de desenvolvimento em OpenGl 3.3. Assim, para essa tarefa foi fornecido o seguinte diretório no github https://github.com/capagot/icg/tree/master/hello_world_gl/modern_opengl. Dessa forma, realizou-se uma compilação inicial para observar se o resultado retornado à tela do usuário corresponde a um triângulo colorido.
 
-![im1](https://user-images.githubusercontent.com/66951092/85546087-f11acd00-b5f2-11ea-9418-ad78f4fac454.jpg)
-![im2](https://user-images.githubusercontent.com/66951092/85546094-f1b36380-b5f2-11ea-9051-a95a165f9e05.jpg)
+![Figura 1: Mensagem de retorno](https://user-images.githubusercontent.com/66951092/85546087-f11acd00-b5f2-11ea-9418-ad78f4fac454.jpg)
+*Figura 1: Mensagem de retorno*
+
+![Figura 2: Mensagem de retorno](https://user-images.githubusercontent.com/66951092/85546094-f1b36380-b5f2-11ea-9051-a95a165f9e05.jpg)
+*Figura 2: Mensagem de retorno*
 
 Como observado, ainda não foi possível obter o triângulo, logo, foi feito mais alguns testes até que foi retornado a seguinte mensagem no terminal:
 
-![im3](https://user-images.githubusercontent.com/66951092/85546099-f2e49080-b5f2-11ea-9f0a-db4315fe1d1e.jpg)
+![Figura 3: Mensagem de retorno](https://user-images.githubusercontent.com/66951092/85546099-f2e49080-b5f2-11ea-9f0a-db4315fe1d1e.jpg)
 
-A figura 7 mostra que o OpenGL instalado na máquina é inferior a versão 3.3 do OpenGl, logo foi necessário realizar atualizações na máquina de forma a atualizar o OpenGl. Para isso foi realizado consultas na internet, de forma a achar os seguintes comandos para serem executados:
+A figura 3 mostra que o OpenGL instalado na máquina é inferior a versão 3.3 do OpenGl, logo foi necessário realizar atualizações na máquina de forma a atualizar o OpenGl. Para isso foi realizado consultas na internet, de forma a achar os seguintes comandos para serem executados:
 
 ```
 sudo apt-get update
@@ -104,9 +107,8 @@ export MESA_GL_VERSION_OVERRIDE=3.3
 
 Portanto, obteve-se os seguintes resultados
 
-![im4](https://user-images.githubusercontent.com/66951092/85546104-f415bd80-b5f2-11ea-8bd5-cd7ea476e8be.jpg)
-
-![im5](https://user-images.githubusercontent.com/66951092/85546107-f546ea80-b5f2-11ea-9237-ee69908a3dc3.jpg)
+![Figura 4: Triângulo Colorido](https://user-images.githubusercontent.com/66951092/85546104-f415bd80-b5f2-11ea-8bd5-cd7ea476e8be.jpg)
+*Figura 4: Triângulo Colorido*
 
 Referências:
 https://pt.wikihow.com/Instalar-Mesa-(OpenGL)-no-Linux-Mint
