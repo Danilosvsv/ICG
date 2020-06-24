@@ -2,7 +2,7 @@
 
 Autor: Danilo Santos Vieira / Matrícula 20160141328
 
-1. [Example](#example)
+1. [Example](#Trabalho 1: Rasterização de Linhas)
 
 
 # Rasterização de Linhas
@@ -74,5 +74,5 @@ Porém, não pode-se limitar o desenho das linhas apenas para o 1 octante, logo,
 
 
 
-## Example
+## Trabalho 1: Rasterização de Linhas
 
