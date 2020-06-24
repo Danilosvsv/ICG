@@ -29,7 +29,7 @@ DesenhaPonto(x,y,valor R,valor G,,valor B,valor A){
 Obteve-se como resultado: 
 
 ![Figura 1 - Desenhando um ponto](https://user-images.githubusercontent.com/66951092/85498909-f9edad80-b5b6-11ea-9be6-353313f7d6ba.png)
-
+*Figura 1 - Desenhando um ponto*
 
 # II) Desenhando linhas
 
