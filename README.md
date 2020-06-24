@@ -6,7 +6,7 @@ Autor: Danilo Santos Vieira / Matrícula 20160141328
 
 Esse trabalho apresenta a fundamentação matemática para a compreensão e implementação de algoritmos para o desenho de pontos, linhas e triângulo na tela do computador. Para essa tarefa, foi necessário entender o algoritmo de Rasterização de Linhas, revisar conhecimentos fundamentais da matemática, como a equação da reta, e no âmbito computacional, foi necessário a instalação do OpenGL 3.0 e da Linguagem de Programação C.
 
-'''
+```
 MidPointLine() {
   int dx = x1 – x0;
   int dy = y1 – x0;
@@ -26,5 +26,5 @@ MidPointLine() {
         PutPixel(x, y, color);
   }
 }
-'''
+```
 
