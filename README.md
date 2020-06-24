@@ -33,6 +33,8 @@ Porém, não pode-se limitar o desenho das linhas apenas para o 1 octante, logo,
 
 y = mx+b
 
+![Imagem1](https://user-images.githubusercontent.com/66951092/85497796-ed685580-b5b4-11ea-9c9b-f601a685a257.jpeg)
+
 
 
 
