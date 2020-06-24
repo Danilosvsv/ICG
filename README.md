@@ -60,9 +60,10 @@ Porém, não pode-se limitar o desenho das linhas apenas para o 1 octante, logo,
 
 
 ![Imagem1](https://user-images.githubusercontent.com/66951092/85497796-ed685580-b5b4-11ea-9c9b-f601a685a257.jpeg)
+<figcaption>Figura 2 - Teste inicial: Desenho de linhas</figcaption>
 
 ![Imagem2](https://user-images.githubusercontent.com/66951092/85497806-f22d0980-b5b4-11ea-984c-df3e296af453.jpeg)
-
+<figcaption>Figura 3 - Teste final: Desenho de linhas</figcaption>
 
 # III) Interpolação de Cores: desenhando linha e triângulo
 
