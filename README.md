@@ -17,8 +17,11 @@ Para desenhar um ponto na tela foi criado uma função que pega as coordenadas (
 Algoritmo: 
 
 ```
-DesenhaPonto(x,y,cor){
-  fb_ptr[4*x+ 4*y*IMAGE_WIDTH + 0]  = cor;
+DesenhaPonto(x,y,valor R,valor G,,valor B,valor A){
+  fb_ptr[4*x+ 4*y*IMAGE_WIDTH + 0]  = valor R;
+  fb_ptr[4*x+ 4*y*IMAGE_WIDTH + 0]  = valor G;
+  fb_ptr[4*x+ 4*y*IMAGE_WIDTH + 0]  = valor B;
+  fb_ptr[4*x+ 4*y*IMAGE_WIDTH + 0]  = valor A;
 }  
 ```
 Obteve-se como resultado: 
@@ -65,7 +68,7 @@ Porém, não pode-se limitar o desenho das linhas apenas para o 1 octante, logo,
 
 ![Imagem4](https://user-images.githubusercontent.com/66951092/85497816-f5c09080-b5b4-11ea-861d-40de34db9f80.jpeg)
 
-# Compilando e Executando um Programa OpenGL Moderno
+2 - Compilando e Executando um Programa OpenGL Moderno
 
 
 
