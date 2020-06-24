@@ -59,18 +59,20 @@ MidPointLine() {
 Porém, não pode-se limitar o desenho das linhas apenas para o 1 octante, logo, é necessário generalizar esse algoritmo para os outros octantes, ou seja, realizou-se uma análise para identificar o comportamento de (x1-x0), (y1-y0), m e a relação entre as coordenadas x0,x1 e y0,y1 nos outros octantes. Dessa forma, obteve-se os seguintes resultados:
 
 
-![Imagem1](https://user-images.githubusercontent.com/66951092/85497796-ed685580-b5b4-11ea-9c9b-f601a685a257.jpeg)
-<figcaption>Figura 2 - Teste inicial: Desenho de linhas</figcaption>
+![Figura 2 - Teste inicial: Desenho de linhas](https://user-images.githubusercontent.com/66951092/85497796-ed685580-b5b4-11ea-9c9b-f601a685a257.jpeg)
+*Figura 2 - Teste inicial: Desenho de linhas*
 
-![Imagem2](https://user-images.githubusercontent.com/66951092/85497806-f22d0980-b5b4-11ea-984c-df3e296af453.jpeg)
-<figcaption>Figura 3 - Teste final: Desenho de linhas</figcaption>
+![Figura 3 - Teste final: Desenho de linhas](https://user-images.githubusercontent.com/66951092/85497806-f22d0980-b5b4-11ea-984c-df3e296af453.jpeg)
+*Figura 3 - Teste final: Desenho de linhas*
 
 # III) Interpolação de Cores: desenhando linha e triângulo
 
 
-![Imagem3](https://user-images.githubusercontent.com/66951092/85497812-f3f6cd00-b5b4-11ea-9dbc-8eb6949782e0.jpeg)
+![Figura 4 - Interpolação de cores: linha](https://user-images.githubusercontent.com/66951092/85497812-f3f6cd00-b5b4-11ea-9dbc-8eb6949782e0.jpeg)
+*Figura 4 - Interpolação de cores: linha*
 
-![Imagem4](https://user-images.githubusercontent.com/66951092/85497816-f5c09080-b5b4-11ea-861d-40de34db9f80.jpeg)
+![Figura 5 - Interpolação de cores: triângulo](https://user-images.githubusercontent.com/66951092/85497816-f5c09080-b5b4-11ea-861d-40de34db9f80.jpeg)
+*Figura 5 - Interpolação de cores: triângulo*
 
 ## Trabalho 2: Compilando e Executando um Programa OpenGL Moderno <a name="introduction2"></a>
 
