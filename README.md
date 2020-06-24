@@ -4,7 +4,23 @@ Autor: Danilo Santos Vieira / Matrícula 20160141328
 
 <li><a href="#">1 - Rasterização de Linhas</a></li>
 
+
 Esse trabalho apresenta a fundamentação matemática para a compreensão e implementação de algoritmos para o desenho de pontos, linhas e triângulo na tela do computador. Para essa tarefa, foi necessário entender o algoritmo de Rasterização de Linhas, revisar conhecimentos fundamentais da matemática, como a equação da reta, e no âmbito computacional, foi necessário a instalação do OpenGL 3.0 e da Linguagem de Programação C.
+
+I) Desenhando um ponto
+
+Para desenhar um ponto na tela foi criado uma função que pega as coordenadas (x,y) desse ponto e a cor desse ponto através dos seus respectivos valores R,G,B,A.
+
+Algoritmo: 
+
+```
+DesenhaPonto(x,y,cor){
+  fb_ptr[4*x+ 4*y*IMAGE_WIDTH + 0]  = cor;
+}  
+```
+Obteve-se como resultado: 
+
+
 
 A princípio, foi fornecido o Algoritmo de Bresenham para o caso 0 < m < 1.
 
@@ -32,6 +48,8 @@ MidPointLine() {
 Porém, não pode-se limitar o desenho das linhas apenas para o 1 octante, logo, é necessário generalizar esse algoritmo para os outros octantes, ou seja, vamos realizar um estudo breve em relação a equação da reta. 
 
 y = mx+b
+
+
 
 ![Imagem1](https://user-images.githubusercontent.com/66951092/85497796-ed685580-b5b4-11ea-9c9b-f601a685a257.jpeg)
 
