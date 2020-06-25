@@ -14,7 +14,7 @@ Esse trabalho apresenta a fundamentação matemática para a compreensão e impl
 
 # I) Desenhando um ponto
 
-Para desenhar um ponto na tela foi criado uma função que pega as coordenadas (x,y) desse ponto e a cor desse ponto através dos seus respectivos valores R,G,B,A.
+Para desenhar um ponto na tela foi criado uma função que pega as coordenadas (x,y) e a cor desse ponto através dos seus respectivos valores R,G,B,A e rasteriza esse ponto na memória de vídeo atravès de um framework fornecido em: https://github.com/capagot/icg/tree/master/mygl_framework.
 
 Algoritmo: 
 
@@ -26,7 +26,7 @@ DesenhaPonto(x,y,valor R,valor G,,valor B,valor A){
   fb_ptr[4*x+ 4*y*IMAGE_WIDTH + 0]  = valor A;
 }  
 ```
-Obteve-se como resultado: 
+Após a aplicação do algoritmo acima, obteve-se o seguinte resultado: 
 
 ![Figura 1 - Desenhando um ponto](https://user-images.githubusercontent.com/66951092/85498909-f9edad80-b5b6-11ea-9be6-353313f7d6ba.png)
 *Figura 1 - Desenhando um ponto*
@@ -65,14 +65,33 @@ Porém, não pode-se limitar o desenho das linhas apenas para o 1 octante, logo,
 ![Figura 3 - Teste final: Desenho de linhas](https://user-images.githubusercontent.com/66951092/85497806-f22d0980-b5b4-11ea-984c-df3e296af453.jpeg)
 *Figura 3 - Teste final: Desenho de linhas*
 
+
+
 # III) Interpolação de Cores: desenhando linha e triângulo
 
+Por fim, foi feito uma interpolação das cores para o desenho da linha e triângulo. Previamente haviamos definido a cor do "objeto" a ser desenhado através dos seus parâmetros (r,g,b,a), agora define-se mais quatro parâmetros (r1,g1,b1,a1) para a segunda cor, logo a relação da interpolação das cores a ser calculada antes da chamada da função de desenho é dada pelo seguinte trecho de código: 
+
+```
+	float dr = (r1-r)/dx;
+	float dg = (g1-g)/dx;
+	float db = (b1-b)/dx;
+	float da = (a1-a)/dx;	
+```
+Assim, obteve-se os seguintes resultados:
 
 ![Figura 4 - Interpolação de cores: linha](https://user-images.githubusercontent.com/66951092/85497812-f3f6cd00-b5b4-11ea-9dbc-8eb6949782e0.jpeg)
 *Figura 4 - Interpolação de cores: linha*
 
 ![Figura 5 - Interpolação de cores: triângulo](https://user-images.githubusercontent.com/66951092/85497816-f5c09080-b5b4-11ea-861d-40de34db9f80.jpeg)
 *Figura 5 - Interpolação de cores: triângulo*
+
+# IV) Dificuldades e possíveis melhoras
+
+Para a execução desse trabalho, houve uma dificuldade considerável para generalizar o Algoritmo de Bresenham e para desenvolver a interpolação de cores. Uma possível melhoria pro trabalho seria a otimização do código com estruturas ou funções.
+
+# V) Referências
+
+Notas de Aula da disciplina de Introdução à Computação Gráfica.
 
 ## Trabalho 2: Compilando e Executando um Programa OpenGL Moderno <a name="introduction2"></a>
 
@@ -106,12 +125,14 @@ glxinfo | grep OpenGL
 export MESA_GL_VERSION_OVERRIDE=3.3
 ```
 
-Portanto, obteve-se os seguintes resultados
+Portanto, obteve-se o seguinte resultado
 
 ![Figura 4: Triângulo Colorido](https://user-images.githubusercontent.com/66951092/85546104-f415bd80-b5f2-11ea-8bd5-cd7ea476e8be.jpg)
 *Figura 4: Triângulo Colorido*
 
-Referências:
+# Referências:
+
 https://pt.wikihow.com/Instalar-Mesa-(OpenGL)-no-Linux-Mint
+
 https://stackoverflow.com/questions/52592309/0110-error-glsl-3-30-is-not-supported-ubuntu-18-04-c
 
