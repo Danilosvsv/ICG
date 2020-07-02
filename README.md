@@ -95,6 +95,8 @@ Notas de Aula da disciplina de Introdução à Computação Gráfica.
 
 ## Trabalho 2: Compilando e Executando um Programa OpenGL Moderno <a name="introduction2"></a>
 
+O teste pode ser visualizado através do vídeo no link: https://youtu.be/6ezLbbMFD6w
+
 Esse trabalho consiste na verificação do ambiente de desenvolvimento em OpenGl 3.3. Assim, para essa tarefa foi fornecido o seguinte diretório no github https://github.com/capagot/icg/tree/master/hello_world_gl/modern_opengl. Dessa forma, realizou-se uma compilação inicial para observar se o resultado retornado à tela do usuário corresponde a um triângulo colorido.
 
 ![Figura 1: Mensagem de retorno](https://user-images.githubusercontent.com/66951092/85546087-f11acd00-b5f2-11ea-9418-ad78f4fac454.jpg)
