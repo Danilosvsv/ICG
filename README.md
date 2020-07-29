@@ -6,6 +6,7 @@ Esse repositório foi organizado da seguinte forma: a pasta trabalhos localizada
 
 1. [Trabalho 1: Rasterização de Linhas](#introduction)
 2. [Trabalho 2: Compilando e Executando um Programa OpenGL Moderno](#introduction2)
+3. [Trabalho 3: Pipeline Gráfico](#introduction3)
 
 
 ## Trabalho 1: Rasterização de Linhas <a name="introduction"></a>
@@ -138,3 +139,4 @@ https://pt.wikihow.com/Instalar-Mesa-(OpenGL)-no-Linux-Mint
 
 https://stackoverflow.com/questions/52592309/0110-error-glsl-3-30-is-not-supported-ubuntu-18-04-c
 
+## Trabalho 3: Pipeline Gáfico <a name="introduction3"></a>
