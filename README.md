@@ -140,3 +140,20 @@ https://pt.wikihow.com/Instalar-Mesa-(OpenGL)-no-Linux-Mint
 https://stackoverflow.com/questions/52592309/0110-error-glsl-3-30-is-not-supported-ubuntu-18-04-c
 
 ## Trabalho 3: Pipeline Gáfico <a name="introduction3"></a>
+
+![p1](https://user-images.githubusercontent.com/66951092/88800401-7b1ffd80-d17e-11ea-940e-5b02261d21a8.jpg)
+![p2](https://user-images.githubusercontent.com/66951092/88800453-8d9a3700-d17e-11ea-9edc-fe776997719e.jpg)
+![p3](https://user-images.githubusercontent.com/66951092/88800455-8f63fa80-d17e-11ea-8f2e-21bcc8feb4dd.jpg)
+![p4](https://user-images.githubusercontent.com/66951092/88800457-90952780-d17e-11ea-95b2-96464e2f6fc6.jpg)
+![p5](https://user-images.githubusercontent.com/66951092/88800458-91c65480-d17e-11ea-8155-6895cb42fe73.jpg)
+![p6](https://user-images.githubusercontent.com/66951092/88800459-93901800-d17e-11ea-81ce-bc1c6fdf2abf.jpg)
+![p7](https://user-images.githubusercontent.com/66951092/88800463-94c14500-d17e-11ea-9548-ebc387ac874b.jpg)
+![p8](https://user-images.githubusercontent.com/66951092/88800467-97239f00-d17e-11ea-819c-effed861cbc1.jpg)
+![p9](https://user-images.githubusercontent.com/66951092/88800469-9854cc00-d17e-11ea-9672-cbcd4faaad46.jpg)
+![p10a](https://user-images.githubusercontent.com/66951092/88800470-9985f900-d17e-11ea-82ee-3a06c2e0b3e5.jpg)
+![p10b](https://user-images.githubusercontent.com/66951092/88800473-9ab72600-d17e-11ea-99f6-c1be01dbe534.jpg)
+![p10c](https://user-images.githubusercontent.com/66951092/88800475-9be85300-d17e-11ea-9d8d-5dbd9b00f62c.jpg)
+
+
+
+
