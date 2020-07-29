@@ -141,8 +141,15 @@ https://stackoverflow.com/questions/52592309/0110-error-glsl-3-30-is-not-support
 
 ## Trabalho 3: Pipeline Gáfico <a name="introduction3"></a>
 
+Esse trabalho consiste em aplicar conceitos de transformações geométricas através do OpenGL, GLM, Glew e C++. Onde o código foi fornecido pelo professor da disciplina através do repositório: https://github.com/capagot/icg. Com o código pronto para compilação, foram realizadas alterações nas matrizes 'model, 'view' e 'projection' de forma a gerar as imagens solicitadas na descrição do projeto. A seguir apresenta-se os resultados obtidos para cada transformação geométrica:
+
+a) Escala: no espaço bidimensional, essa transformação consiste em pegar coeficientes x,y e modificar a largura e altura da figura original conforme solicitado.
+
 ![p1](https://user-images.githubusercontent.com/66951092/88800401-7b1ffd80-d17e-11ea-940e-5b02261d21a8.jpg)
 ![p2](https://user-images.githubusercontent.com/66951092/88800453-8d9a3700-d17e-11ea-9edc-fe776997719e.jpg)
+
+b) Translação
+
 ![p3](https://user-images.githubusercontent.com/66951092/88800455-8f63fa80-d17e-11ea-8f2e-21bcc8feb4dd.jpg)
 ![p4](https://user-images.githubusercontent.com/66951092/88800457-90952780-d17e-11ea-95b2-96464e2f6fc6.jpg)
 ![p5](https://user-images.githubusercontent.com/66951092/88800458-91c65480-d17e-11ea-8155-6895cb42fe73.jpg)
