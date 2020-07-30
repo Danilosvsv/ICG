@@ -143,33 +143,49 @@ https://stackoverflow.com/questions/52592309/0110-error-glsl-3-30-is-not-support
 
 Esse trabalho consiste em aplicar conceitos de transformações geométricas através do OpenGL, GLM, Glew e C++. Onde o código foi fornecido pelo professor da disciplina através do repositório: https://github.com/capagot/icg. Com o código pronto para compilação, foram realizadas alterações nas matrizes 'model, 'view' e 'projection' de forma a gerar as imagens solicitadas na descrição do projeto. A seguir apresenta-se os resultados obtidos para cada transformação geométrica:
 
-Exercício 1: Escala no espaço bidimensional, essa transformação consiste em pegar coeficientes x,y e modificar a largura e altura da figura original conforme solicitado.
+Exercício 1: Escala - No espaço bidimensional, essa transformação consiste em pegar as coordenadas x, y e z e modificar a largura e altura da figura original através da matriz model.
 
 ![p1](https://user-images.githubusercontent.com/66951092/88800401-7b1ffd80-d17e-11ea-940e-5b02261d21a8.jpg)
 ![p2](https://user-images.githubusercontent.com/66951092/88800453-8d9a3700-d17e-11ea-9edc-fe776997719e.jpg)
 
-Exercício 2:  Translação: 
+Exercício 2:  Translação - Essa transformação move um elemento de sua posição atual de acordo com as coordenadas da matriz model.
 
 ![p3](https://user-images.githubusercontent.com/66951092/88800455-8f63fa80-d17e-11ea-8f2e-21bcc8feb4dd.jpg)
 ![p4](https://user-images.githubusercontent.com/66951092/88800457-90952780-d17e-11ea-95b2-96464e2f6fc6.jpg)
 
- Exercício 3: Projeção Perspectiva
+ Exercício 3: Projeção Perspectiva - Usada para tornas os objetos realísticos, onde a sua modelagem é caracterizada por: 
  
+Primeiramente, temos:
+ 
+ ![proj1](https://user-images.githubusercontent.com/66951092/88867360-9cff9b80-d1e3-11ea-840b-467f66567f77.png)
+ 
+ "As coordenadas (x,y), da projeção perspectiva P'' de qualquer ponto P de coordenadas (x,y,z), colocado do lado oposto de CP, em relação ao plano de projeção PI, é obtido criando-se uma linha L de P até CP e calculando-se a intersecção desta com o plano PI. A figura 2 exemplifica o cálculo de P".
+ 
+ ![proj2](https://user-images.githubusercontent.com/66951092/88867355-98d37e00-d1e3-11ea-85d4-2755531d9163.png)
+
+Assim, é possível calcular P'' e por fim obter por semelhança de triângulo o valor da distância focal. Uma vez que obtida a expressão da distância focal, obteve-se através das notas de aula a matriz de projeção apresentada no código.
+
 ![p5](https://user-images.githubusercontent.com/66951092/88800458-91c65480-d17e-11ea-8155-6895cb42fe73.jpg)
 ![p6](https://user-images.githubusercontent.com/66951092/88800459-93901800-d17e-11ea-81ce-bc1c6fdf2abf.jpg)
 
-Exercício 4: Posição da Câmera
+Exercício 4: Posição da Câmera -  é uma transformação de um objeto e de sua área circundante que difere significativamente da aparência do objeto com uma distância focal normal , devido à escala relativa de características próximas e distantes.
 
 ![p7](https://user-images.githubusercontent.com/66951092/88800463-94c14500-d17e-11ea-9548-ebc387ac874b.jpg)
 ![p8](https://user-images.githubusercontent.com/66951092/88800467-97239f00-d17e-11ea-819c-effed861cbc1.jpg)
 
-Exercício 5: Transformações Livres
+Exercício 5: Transformações Livres - nessa transformações mudou-se os valores da matrizes 'model, 'view' e 'projection' simultaneamente.
 
 ![p9](https://user-images.githubusercontent.com/66951092/88800469-9854cc00-d17e-11ea-9672-cbcd4faaad46.jpg)
 ![p10a](https://user-images.githubusercontent.com/66951092/88800470-9985f900-d17e-11ea-82ee-3a06c2e0b3e5.jpg)
 ![p10b](https://user-images.githubusercontent.com/66951092/88800473-9ab72600-d17e-11ea-99f6-c1be01dbe534.jpg)
 ![p10c](https://user-images.githubusercontent.com/66951092/88800475-9be85300-d17e-11ea-9d8d-5dbd9b00f62c.jpg)
 
+Conclusão: O trabalho foi relevante para a obtenção de conhecimentos matemáticos e computacionais na área de computação gráfica. Uma possível melhoria para o trabalho seria um estudo mais aprofundado no tópico de distorção perspectiva.
 
+
+Referências:
+
+1. https://www.inf.pucrs.br/~pinho/CG/Aulas/Vis3d/Vis3d.htm#:~:text=A%20modelagem%20matem%C3%A1tica%20da%20proje%C3%A7%C3%A3o,Centro%20de%20Proje%C3%A7%C3%A3o(CP).
+2. https://en.wikipedia.org/wiki/Perspective_distortion_(photography)
 
 
