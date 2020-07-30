@@ -143,19 +143,28 @@ https://stackoverflow.com/questions/52592309/0110-error-glsl-3-30-is-not-support
 
 Esse trabalho consiste em aplicar conceitos de transformações geométricas através do OpenGL, GLM, Glew e C++. Onde o código foi fornecido pelo professor da disciplina através do repositório: https://github.com/capagot/icg. Com o código pronto para compilação, foram realizadas alterações nas matrizes 'model, 'view' e 'projection' de forma a gerar as imagens solicitadas na descrição do projeto. A seguir apresenta-se os resultados obtidos para cada transformação geométrica:
 
-a) Escala: no espaço bidimensional, essa transformação consiste em pegar coeficientes x,y e modificar a largura e altura da figura original conforme solicitado.
+Exercício 1: Escala no espaço bidimensional, essa transformação consiste em pegar coeficientes x,y e modificar a largura e altura da figura original conforme solicitado.
 
 ![p1](https://user-images.githubusercontent.com/66951092/88800401-7b1ffd80-d17e-11ea-940e-5b02261d21a8.jpg)
 ![p2](https://user-images.githubusercontent.com/66951092/88800453-8d9a3700-d17e-11ea-9edc-fe776997719e.jpg)
 
-b) Translação
+Exercício 2:  Translação: 
 
 ![p3](https://user-images.githubusercontent.com/66951092/88800455-8f63fa80-d17e-11ea-8f2e-21bcc8feb4dd.jpg)
 ![p4](https://user-images.githubusercontent.com/66951092/88800457-90952780-d17e-11ea-95b2-96464e2f6fc6.jpg)
+
+ Exercício 3: Projeção Perspectiva
+ 
 ![p5](https://user-images.githubusercontent.com/66951092/88800458-91c65480-d17e-11ea-8155-6895cb42fe73.jpg)
 ![p6](https://user-images.githubusercontent.com/66951092/88800459-93901800-d17e-11ea-81ce-bc1c6fdf2abf.jpg)
+
+Exercício 4: Posição da Câmera
+
 ![p7](https://user-images.githubusercontent.com/66951092/88800463-94c14500-d17e-11ea-9548-ebc387ac874b.jpg)
 ![p8](https://user-images.githubusercontent.com/66951092/88800467-97239f00-d17e-11ea-819c-effed861cbc1.jpg)
+
+Exercício 5: Transformações Livres
+
 ![p9](https://user-images.githubusercontent.com/66951092/88800469-9854cc00-d17e-11ea-9672-cbcd4faaad46.jpg)
 ![p10a](https://user-images.githubusercontent.com/66951092/88800470-9985f900-d17e-11ea-82ee-3a06c2e0b3e5.jpg)
 ![p10b](https://user-images.githubusercontent.com/66951092/88800473-9ab72600-d17e-11ea-99f6-c1be01dbe534.jpg)
