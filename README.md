@@ -210,8 +210,8 @@ Exercício 2: Implementação do Modelo de Reflexão Especular
     vec3 R = -reflect(L, N);
     vec3 V = normalize(cam_pos - (model_mat * vec4(obj_spc_vertex_pos , 1.0)).xyz);  
     float specular = 0.0;
-    float specAngle = max(dot(R, V), 0.0);
-    specular = pow(specAngle, 64.0);
+    float specAngle = max(dot(R, V), 0.0); // Extraído da referência 4
+    specular = pow(specAngle, 64.0); // Extraído da referência 4
     I = I_a * k_a + I_p * (k_d * (L * N) + k_s * specular);        
 
 ![photo2](https://user-images.githubusercontent.com/66951092/89686768-5130ae80-d8d5-11ea-8e2b-87692b42fdfb.png)
@@ -223,5 +223,6 @@ Referências:
 1. http://www.univasf.edu.br/~jorge.cavalcanti/comput_graf13_Iluminacao.pdf
 2. https://en.wikipedia.org/wiki/Diffuse_reflection#:~:text=Diffuse%20reflection%20is%20the%20reflection,the%20case%20of%20specular%20reflection.
 3. https://www.sciencedirect.com/topics/engineering/specular-reflection#:~:text=Specular%20reflection%20is%20the%20mirror,reflected%20from%20a%20smooth%20surface.
+4. http://www.cs.toronto.edu/~jacobson/phong-demo/
 
 
