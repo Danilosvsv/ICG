@@ -7,6 +7,7 @@ Esse repositório foi organizado da seguinte forma: a pasta trabalhos localizada
 1. [Trabalho 1: Rasterização de Linhas](#introduction)
 2. [Trabalho 2: Compilando e Executando um Programa OpenGL Moderno](#introduction2)
 3. [Trabalho 3: Pipeline Gráfico](#introduction3)
+4. [Trabalho 4: Implementação de Modelos de Iluminação](#introduction4)
 
 
 ## Trabalho 1: Rasterização de Linhas <a name="introduction"></a>
@@ -187,5 +188,7 @@ Referências:
 
 1. https://www.inf.pucrs.br/~pinho/CG/Aulas/Vis3d/Vis3d.htm#:~:text=A%20modelagem%20matem%C3%A1tica%20da%20proje%C3%A7%C3%A3o,Centro%20de%20Proje%C3%A7%C3%A3o(CP).
 2. https://en.wikipedia.org/wiki/Perspective_distortion_(photography)
+
+## Trabalho 4: Implementação de Modelos de Iluminação <a name="introduction4"></a>
 
 
