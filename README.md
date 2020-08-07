@@ -181,7 +181,7 @@ Exercício 5: Transformações Livres - nessa transformações mudou-se os valor
 ![p10b](https://user-images.githubusercontent.com/66951092/88800473-9ab72600-d17e-11ea-99f6-c1be01dbe534.jpg)
 ![p10c](https://user-images.githubusercontent.com/66951092/88800475-9be85300-d17e-11ea-9d8d-5dbd9b00f62c.jpg)
 
-Conclusão: As principais dificuldades foram  deixar as imagens geradas após a aplicação dos modelos de reflexão de forma fiel as solicitadas na descrição do trabalho. Nesse sentido, teve-se que fazer uma análise minuciosa no arquivo 'vertex_shader.glsl' de forma a encontrar eventuais equivocos na digitação dos valores contidos nos vetores ou nas fórmulas dos modelos de iluminação.
+Conclusão: A principal dificuldade encontrada no trabalho foi em relação a posição da câmera e fica como uma possível melhoria.
 
 
 Referências:
@@ -216,7 +216,7 @@ Exercício 2: Implementação do Modelo de Reflexão Especular
 
 ![photo2](https://user-images.githubusercontent.com/66951092/89686768-5130ae80-d8d5-11ea-8e2b-87692b42fdfb.png)
 
-Conclusão: 
+Conclusão: As principais dificuldades foram  deixar as imagens geradas após a aplicação dos modelos de reflexão de forma fiel as solicitadas na descrição do trabalho. Nesse sentido, teve-se que fazer uma análise minuciosa no arquivo 'vertex_shader.glsl' de forma a encontrar eventuais equivocos na digitação dos valores contidos nos vetores ou nas fórmulas dos modelos de iluminação.
 
 Referências:
 
