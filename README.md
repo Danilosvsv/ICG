@@ -191,4 +191,20 @@ Referências:
 
 ## Trabalho 4: Implementação de Modelos de Iluminação <a name="introduction4"></a>
 
+Esse trabalho consiste em aplicar conceitos matemáticos referentes aos modelos de iluminação que são utilizadas no processo de rasterização como, por exemplo: ambiente, difuso e especular (Phong). Para essa tarefa foram utilizados o OpenGL, GLM, Glew e C++. O código foi fornecido pelo professor da disciplina através do repositório: https://github.com/capagot/icg. Com o código pronto para compilação, foram realizadas alterações no arquivo 'vertex_shader.glsl' de forma a adicionar os modelos de reflexão. Sobre os modelos de reflexão ou iluminação, pode-se afirmar que "definem a natureza da luz emanada por uma fonte e sua interação com todos os objetos da cena".  
+
+Exercício 1: Implementação do Modelo de Reflexão Difuso
+
+![photo1](https://user-images.githubusercontent.com/66951092/89686505-e1babf00-d8d4-11ea-8e18-aa88c6e4ffac.jpg)
+
+Exercício 2: Implementação do Modelo de Reflexão Especular
+
+![photo2](https://user-images.githubusercontent.com/66951092/89686508-e2535580-d8d4-11ea-8cab-82d55a696144.jpg)
+
+
+Referências:
+
+1. http://www.univasf.edu.br/~jorge.cavalcanti/comput_graf13_Iluminacao.pdf
+2. 
+
 
