@@ -181,7 +181,7 @@ Exercício 5: Transformações Livres - nessa transformações mudou-se os valor
 ![p10b](https://user-images.githubusercontent.com/66951092/88800473-9ab72600-d17e-11ea-99f6-c1be01dbe534.jpg)
 ![p10c](https://user-images.githubusercontent.com/66951092/88800475-9be85300-d17e-11ea-9d8d-5dbd9b00f62c.jpg)
 
-Conclusão: O trabalho foi relevante para a obtenção de conhecimentos matemáticos e computacionais na área de computação gráfica. Uma possível melhoria para o trabalho seria um estudo mais aprofundado no tópico de distorção perspectiva.
+Conclusão: As principais dificuldades foram  deixar as imagens geradas após a aplicação dos modelos de reflexão de forma fiel as solicitadas na descrição do trabalho. Nesse sentido, teve-se que fazer uma análise minuciosa no arquivo 'vertex_shader.glsl' de forma a encontrar eventuais equivocos na digitação dos valores contidos nos vetores ou nas fórmulas dos modelos de iluminação.
 
 
 Referências:
@@ -205,11 +205,23 @@ Exercício 1: Implementação do Modelo de Reflexão Difuso
 
 Exercício 2: Implementação do Modelo de Reflexão Especular
 
+"É a luz direcionada em um ângulo que é exatamente oposto à luz incidente ou quando o ângulo de incidência é igual ao ângulo de reflexão". De forma análoga ao exercício anterior, foram feitas alterações nos valores dos vetores de forma a cumprir aos requisitos da figura 4. As mudanças mais significativas no código foram:
+
+    vec3 R = -reflect(L, N);
+    vec3 V = normalize(cam_pos - (model_mat * vec4(obj_spc_vertex_pos , 1.0)).xyz);  
+    float specular = 0.0;
+    float specAngle = max(dot(R, V), 0.0);
+    specular = pow(specAngle, 64.0);
+    I = I_a * k_a + I_p * (k_d * (L * N) + k_s * specular);        
+
 ![photo2](https://user-images.githubusercontent.com/66951092/89686768-5130ae80-d8d5-11ea-8e2b-87692b42fdfb.png)
+
+Conclusão: 
 
 Referências:
 
 1. http://www.univasf.edu.br/~jorge.cavalcanti/comput_graf13_Iluminacao.pdf
-2. 
+2. https://en.wikipedia.org/wiki/Diffuse_reflection#:~:text=Diffuse%20reflection%20is%20the%20reflection,the%20case%20of%20specular%20reflection.
+3. https://www.sciencedirect.com/topics/engineering/specular-reflection#:~:text=Specular%20reflection%20is%20the%20mirror,reflected%20from%20a%20smooth%20surface.
 
 
