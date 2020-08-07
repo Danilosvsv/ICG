@@ -195,12 +195,11 @@ Esse trabalho consiste em aplicar conceitos matemáticos referentes aos modelos 
 
 Exercício 1: Implementação do Modelo de Reflexão Difuso
 
-![photo1](https://user-images.githubusercontent.com/66951092/89686505-e1babf00-d8d4-11ea-8e18-aa88c6e4ffac.jpg)
+![photo1](https://user-images.githubusercontent.com/66951092/89686764-50981800-d8d5-11ea-8221-7ebc6cc8ad54.png)
 
 Exercício 2: Implementação do Modelo de Reflexão Especular
 
-![photo2](https://user-images.githubusercontent.com/66951092/89686508-e2535580-d8d4-11ea-8cab-82d55a696144.jpg)
-
+![photo2](https://user-images.githubusercontent.com/66951092/89686768-5130ae80-d8d5-11ea-8e2b-87692b42fdfb.png)
 
 Referências:
 
