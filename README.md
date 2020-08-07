@@ -195,6 +195,12 @@ Esse trabalho consiste em aplicar conceitos matemáticos referentes aos modelos 
 
 Exercício 1: Implementação do Modelo de Reflexão Difuso
 
+"É a reflexão da luz ou outras ondas ou partículas de uma superfície, de forma que um raio incidente na superfície é espalhado em muitos ângulos, em vez de em apenas um ângulo, como no caso da reflexão especular". Para resolver essa atividade foram adicionadas alterações nos valores dos vetores, de acordo com o fornecido na figura 3 da descrição do trabalho. As mais significativas foram:
+
+    vec3 L = normalize(I_p_pos  - (model_mat * vec4(obj_spc_vertex_pos , 1.0)).xyz);
+    vec3 N = normalize(mat3(transpose(inverse(model_mat))) * obj_spc_N);
+    I = I_a * k_a + I_p * k_d * (L * N);
+
 ![photo1](https://user-images.githubusercontent.com/66951092/89686764-50981800-d8d5-11ea-8221-7ebc6cc8ad54.png)
 
 Exercício 2: Implementação do Modelo de Reflexão Especular
